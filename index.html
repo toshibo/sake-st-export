@@ -7,12 +7,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/destyle.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://images.sakestreet.com/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://images.sakestreet.com/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
 </head>
 <body>
 <div class="container">
     <header>
-        <h1><a href="./"><img src="./images/sakestreet-export_logo.png" width="355" height="45" alt="SAKE Street Export"></a></h1>
+        <h1><a href="./"><img src="./images/sakestreet-export_logo.png" width="300" height="38" alt="SAKE Street Export"></a></h1>
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+        <label for="drawer_input" class="drawer_open"><span></span></label>
         <ul>
             <li><a href="#our-services">Our Services</a></li>
             <li><a href="#import-procedure">Import Procedure</a></li>
@@ -26,7 +32,7 @@
     <div class="jambotron">
     </div>
     <main>
-        <h2>Our Services</h2>
+        <h2><a name="our-services">Our Services</a></h2>
         <div class="services">
             <div class="service-image service-item_01">
                 <img src="./images/sakestreet-service_01.jpg" width="738" height="480" alt="Extensive network with sake breweries">
@@ -54,7 +60,7 @@
         <div class="btn-request-quote">
             <a href="https://forms.gle/DRbMdNR9ELczf43n7">Request Quote</a>
         </div>
-        <h2>Import Procedure</h2>
+        <h2><a name="import-procedure">Import Procedure</a></h2>
         <div class="procedure">
             <div class="procedure-number">
                 1
@@ -111,7 +117,7 @@
         <div class="btn-request-quote">
             <a href="https://forms.gle/DRbMdNR9ELczf43n7">Request Quote</a>
         </div>
-        <h2>About SAKE Street</h2>
+        <h2><a name="about-us">About Us</a></h2>
         <div class="about">
             <div class="about-image">
                 <img src="./images/sakestreet-interior.jpg" width="738" height="480" alt="SAKE Street Store">
